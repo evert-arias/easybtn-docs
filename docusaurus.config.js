@@ -2,8 +2,8 @@ module.exports = {
   title: "EasyButton",
   tagline:
     "Arduino library for debouncing momentary contact switches, detect press, release, long press and sequences with event definitions and callbacks.",
-  url: "https://easybtn.earias.me",
-  baseUrl: "/",
+  url: "https://code.treve.dev",
+  baseUrl: "/easybutton",
   favicon: "img/favicon.ico",
   organizationName: "evert-arias", // Usually your GitHub org/user name.
   projectName: "EasyButton", // Usually your repo name.
@@ -40,7 +40,7 @@ module.exports = {
           position: "left",
         },
         { to: "/contributors", label: "Contributors", position: "left" },
-        { to: "https://blog.earias.me", label: "Blog", position: "right" },
+        { to: "https://blog.treve.dev", label: "Blog", position: "right" },
         {
           href: "https://github.com/evert-arias/EasyButton",
           label: "GitHub",
@@ -90,7 +90,7 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              to: "https://blog.earias.me/",
+              to: "https://blog.treve.dev/",
             },
             {
               label: "GitHub",
@@ -98,13 +98,13 @@ module.exports = {
             },
             {
               label: "Youtube",
-              href: "https://www.youtube.com/channel/UCbdTIe6YpgJ6bCL7FI16Bcw",
+              href: "https://www.youtube.com/@trevedev",
             },
           ],
         },
       ],
       copyright: `Made with 💙 by <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias">Evert Arias</a>`,
-    }
+    },
   },
   presets: [
     [
@@ -124,5 +124,5 @@ module.exports = {
       },
     ],
   ],
-  onBrokenLinks: 'ignore'
+  onBrokenLinks: "ignore",
 };
