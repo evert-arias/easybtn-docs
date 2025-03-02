@@ -2,35 +2,64 @@
   "name": "easybutton-docs",
   "version": "1.1.0",
   "private": true,
+  "description": "Easy Button Docs",
+  "author": "Evert Arias",
+  "license": "MIT",
+  "homepage": "https://github.com/EvertArias/easybutton-docs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvertArias/easybutton-docs.git"
+  },
+  "keywords": [
+    "docs",
+    "docusaurus",
+    "documentation"
+  ],
   "scripts": {
+    "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve"
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc",
+    "dev": "docusaurus start"
   },
   "dependencies": {
-    "@docusaurus/core": "2.4.0",
-    "@docusaurus/preset-classic": "2.4.0",
-    "@octokit/rest": "^18.3.5",
-    "classnames": "^2.2.6",
-    "docusaurus": "^1.14.7",
-    "react": "^16.8.4",
-    "react-contributors": "^1.1.2",
-    "react-dom": "^16.8.4",
-    "react-github-btn": "^1.1.1",
-    "typescript": "^5.1.6"
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.0.0",
+    "@octokit/rest": "^19.0.13",
+    "classnames": "^2.3.2",
+    "react": "^18.2.0",
+    "react-contributors": "^2.0.0",
+    "react-dom": "^18.2.0",
+    "react-github-btn": "^1.4.0",
+    "prism-react-renderer": "^2.3.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.7.0",
+    "@docusaurus/tsconfig": "3.7.0",
+    "@docusaurus/types": "3.7.0",
+    "typescript": "~5.6.2"
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.5%",
       "not dead",
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
     ]
+  },
+  "engines": {
+    "node": ">=18.0"
   }
 }
