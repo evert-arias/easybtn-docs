@@ -1,9 +1,9 @@
 # EasyButton Website
+
 Library documentation, examples and guides.
 
-https://easybtn.earias.me/
+<https://code.treve.dev/easybutton/>
 
 ## Copyright
 
 [MIT](../LICENSE.md) © [Evert Arias](https://www.earias.me/)
-
