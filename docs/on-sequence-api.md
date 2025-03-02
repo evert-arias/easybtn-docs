@@ -22,4 +22,4 @@ button.onSequence(number_of_presses, sequence_timeout, onSequenceMatchedCallback
 
 ## Example
 
-Please refer to the [Detecting Sequence](sequence-example) example included in this documentation.
+Please refer to the [Detecting Sequence](on-sequence-example) example included in this documentation.
