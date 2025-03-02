@@ -1,19 +1,55 @@
-module.exports = {
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
+import { themes as prismThemes } from "prism-react-renderer";
+
+const config: Config = {
   title: "EasyButton",
   tagline:
     "Arduino library for debouncing momentary contact switches, detect press, release, long press and sequences with event definitions and callbacks.",
+
+  // Set the production url of your site here
   url: "https://code.treve.dev",
+
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/easybutton",
+
   favicon: "img/favicon.ico",
-  organizationName: "evert-arias", // Usually your GitHub org/user name.
-  projectName: "EasyButton", // Usually your repo name.
+  organizationName: "evert-arias",
+  projectName: "EasyButton",
+
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+
+  // Even if you don't use internationalization, you can use this field to set
+  // useful metadata like html lang. For example, if your site is Chinese, you
+  // may want to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+  },
+
+  presets: [
+    [
+      "classic",
+      {
+        docs: {
+          sidebarPath: "./sidebars.ts",
+          editUrl: "https://github.com/evert-arias/easybutton-website",
+        },
+        theme: {
+          customCss: "./src/css/custom.css",
+        },
+        gtag: {
+          trackingID: "UA-137998950-8",
+          anonymizeIP: true,
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
   themeConfig: {
-    // announcementBar: {
-    //   id: "newrelease",
-    //   content:
-    //     '⭐️ New video: Working with Arduino libraries and EasyButton from <b> Automatismos_Xl_Mundo</b>, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=syA3kyBwRBU">check it out!</a>. (Español) ⭐️',
-    //   backgroundColor: '#a6f0c6'
-    // },
+    image: "img/logo.svg",
     navbar: {
       title: "EasyButton",
       logo: {
@@ -23,19 +59,19 @@ module.exports = {
       items: [
         {
           to: "docs/introduction",
-          activeBasePath: "docs",
+          sidebarId: "docs",
           label: "Docs",
           position: "left",
         },
         {
           to: "docs/on-single-press-api",
-          activeBasePath: "api",
+          sidebarId: "api",
           label: "API",
           position: "left",
         },
         {
           to: "docs/on-single-press-example",
-          activeBasePath: "examples",
+          sidebarId: "examples",
           label: "Examples",
           position: "left",
         },
@@ -77,11 +113,11 @@ module.exports = {
             },
             {
               label: "Detecting Sequence",
-              href: "docs/on-sequence-example",
+              to: "docs/on-sequence-example",
             },
             {
               label: "Pressed For Duration",
-              href: "docs/on-pressed-for-duration-example",
+              to: "docs/on-pressed-for-duration-example",
             },
           ],
         },
@@ -105,24 +141,11 @@ module.exports = {
       ],
       copyright: `Made with 💙 by <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias">Evert Arias</a>`,
     },
-  },
-  presets: [
-    [
-      "@docusaurus/preset-classic",
-      {
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/evert-arias/easybutton-website",
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-        googleAnalytics: {
-          trackingID: "UA-137998950-8",
-          anonymizeIP: true,
-        },
-      },
-    ],
-  ],
-  onBrokenLinks: "ignore",
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  } satisfies Preset.ThemeConfig,
 };
+
+export default config;

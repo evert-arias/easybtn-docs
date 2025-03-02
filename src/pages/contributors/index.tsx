@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./styles.module.css";
-import Contributors from "react-contributors";
+import { Contributors } from "react-contributors";
 
 function ContributorsPage() {
   return (
@@ -15,10 +15,7 @@ function ContributorsPage() {
           active support.
         </h4>
       </div>
-      <Contributors
-        owner="evert-arias"
-        repo={["EasyButton", "easybtn.earias.me"]}
-      />
+      {/* <Contributors owner="evert-arias" repo={["EasyButton"]} /> */}
     </Layout>
   );
 }
