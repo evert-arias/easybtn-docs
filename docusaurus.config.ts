@@ -8,11 +8,11 @@ const config: Config = {
     "Arduino library for debouncing momentary contact switches, detect press, release, long press and sequences with event definitions and callbacks.",
 
   // Set the production url of your site here
-  url: "https://code.treve.dev",
+  url: "https://evert-arias.github.io/easybtn-docs",
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/easybtn-docs",
 
   favicon: "img/favicon.ico",
   organizationName: "evert-arias",
