@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 235 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;">
+    <g transform="matrix(0.185433,0,0,0.181296,-208.125,-316.774)">
+        <g id="Layer-1" serif:id="Layer 1">
+            <g id="g1974">
+                <g id="g1804">
+                    <rect id="XMLID_6_" x="1185.2" y="1911.31" width="1141.67" height="28.721" style="fill:rgb(32,43,82);"/>
+                    <rect id="XMLID_9_" x="1185.2" y="1882.59" width="1141.67" height="28.721" style="fill:rgb(58,71,117);"/>
+                    <rect id="XMLID_47_" x="1185.2" y="2193.14" width="1141.67" height="28.721" style="fill:rgb(32,43,82);"/>
+                    <rect id="XMLID_15_" x="1185.2" y="2164.42" width="1141.67" height="28.721" style="fill:rgb(58,71,117);"/>
+                    <rect id="XMLID_110_" x="1185.2" y="2483.73" width="1141.67" height="28.721" style="fill:rgb(32,43,82);"/>
+                    <rect id="XMLID_18_" x="1185.2" y="2455" width="1141.67" height="28.721" style="fill:rgb(58,71,117);"/>
+                    <circle id="XMLID_21_" cx="1406.71" cy="1911.31" r="96.934" style="fill:rgb(59,206,255);"/>
+                    <path id="XMLID_74_" d="M1424.66,1979.52C1371.17,1979.52 1327.73,1936.08 1327.73,1882.59C1327.73,1869.66 1330.24,1857.46 1334.91,1846.33C1319.47,1863.56 1309.78,1886.18 1309.78,1911.31C1309.78,1964.8 1353.22,2008.24 1406.71,2008.24C1447.28,2008.24 1482.1,1983.11 1496.46,1947.57C1478.87,1967.32 1453.38,1979.52 1424.66,1979.52Z" style="fill:rgb(47,175,220);fill-rule:nonzero;"/>
+                    <circle id="XMLID_8_" cx="1406.71" cy="1911.31" r="96.934" style="fill:none;stroke:rgb(32,43,82);stroke-width:21.54px;"/>
+                    <circle id="XMLID_25_" cx="1756.03" cy="2193.14" r="96.934" style="fill:rgb(248,217,107);"/>
+                    <path id="XMLID_87_" d="M1777.57,2264.94C1724.08,2264.94 1680.64,2221.5 1680.64,2168.01C1680.64,2150.05 1685.66,2132.82 1694.28,2118.46C1672.74,2136.41 1659.1,2162.98 1659.1,2193.14C1659.1,2246.63 1702.54,2290.07 1756.03,2290.07C1791.57,2290.07 1822.45,2271.04 1839.32,2242.68C1822.81,2256.68 1801.27,2264.94 1777.57,2264.94Z" style="fill:rgb(242,185,85);fill-rule:nonzero;"/>
+                    <circle id="XMLID_16_" cx="1756.03" cy="2193.14" r="96.934" style="fill:none;stroke:rgb(32,43,82);stroke-width:21.54px;"/>
+                    <circle id="XMLID_32_" cx="1554.98" cy="2483.73" r="96.934" style="fill:rgb(225,117,85);"/>
+                    <path id="XMLID_116_" d="M1576.52,2555.53C1523.03,2555.53 1479.59,2512.09 1479.59,2458.59C1479.59,2440.64 1484.62,2423.41 1493.23,2409.05C1471.69,2427 1458.05,2453.57 1458.05,2483.72C1458.05,2537.22 1501.49,2580.66 1554.98,2580.66C1590.53,2580.66 1621.4,2561.63 1638.28,2533.27C1621.76,2547.27 1600.22,2555.53 1576.52,2555.53Z" style="fill:rgb(228,94,91);fill-rule:nonzero;"/>
+                    <path id="XMLID_122_" d="M1616.02,2483.72C1616.02,2449.98 1588.73,2422.69 1554.98,2422.69" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:10.77px;"/>
+                    <circle id="XMLID_20_" cx="1554.98" cy="2483.73" r="96.934" style="fill:none;stroke:rgb(32,43,82);stroke-width:21.54px;"/>
+                    <path id="XMLID_111_" d="M1467.74,1911.31C1467.74,1877.56 1440.46,1850.28 1406.71,1850.28" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:10.77px;"/>
+                    <path id="XMLID_115_" d="M1786.59,2193.14C1786.59,2159.39 1759.3,2132.11 1725.55,2132.11" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:10.77px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
