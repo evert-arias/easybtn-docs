@@ -28,16 +28,16 @@ void onPressedForDuration() {
 void setup() {
     Serial.begin(115200);
 
-  	// Initialize the button.
-  	button.begin();
+   // Initialize the button.
+   button.begin();
 
-  	// Attach callback.
-  	button.onPressedFor(duration, onPressedForDuration);
+   // Attach callback.
+   button.onPressedFor(duration, onPressedForDuration);
 }
 
 void loop() {
     // Continuously update the button state.
-  	button.read();
+   button.read();
 }
 ```
 

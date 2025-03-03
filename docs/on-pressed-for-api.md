@@ -15,6 +15,7 @@ int duration = 2000;
 
 button.onPressedFor(duration, onPressedCallback);
 ```
+
 ## External interrupts
 
 When the button is being interfaced with microcontroller through external interrupts and you need to use this feature, method `update` must be called inside `loop` function as shown below.

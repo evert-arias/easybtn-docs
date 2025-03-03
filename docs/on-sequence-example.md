@@ -34,16 +34,16 @@ void onSequenceMatched() {
 void setup() {
     Serial.begin(115200);
 
-  	// Initialize the button.
-  	button.begin();
+   // Initialize the button.
+   button.begin();
 
-  	// Attach callback.
-  	button.onSequence(presses, timeout, onSequenceMatched);
+   // Attach callback.
+   button.onSequence(presses, timeout, onSequenceMatched);
 }
 
 void loop() {
     // Continuously update the button state.
-  	button.read();
+   button.read();
 }
 ```
 
