@@ -35,7 +35,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/evert-arias/easybutton-website",
+          editUrl: "https://github.com/evert-arias/easybtn-docs",
         },
         theme: {
           customCss: "./src/css/custom.css",
