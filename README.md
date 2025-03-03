@@ -1,8 +1,8 @@
-# EasyButton Website
+# EasyButton Documentation
 
 Library documentation, examples and guides.
 
-<https://code.treve.dev/easybutton/>
+<https://evert-arias.github.io/easybtn-docs/>
 
 ## Copyright
 
