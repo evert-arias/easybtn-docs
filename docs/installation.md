@@ -8,7 +8,7 @@ sidebar_label: Installation
 
 Search for **EasyButton** on the **Arduino Library Manager** as shown below:
 
-![arduino_Library_manager](/img/arduino_library_manager.gif)
+![arduino_Library_manager](/static/img/arduino_library_manager.gif)
 
 :::note Tip
 
@@ -20,11 +20,11 @@ See [Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Li
 
 Search for **EasyButton** on the **PlatformIO Library Manager** as shown below:
 
-![platformio_Library_manager](/img/platformio_Library_manager.gif)
+![platformio_Library_manager](/static/img/platformio_Library_manager.gif)
 
 :::note Tip
 
-See [PlatformIO LIbrary Manager Docs](https://docs.platformio.org/en/latest/librarymanager/) for more information or the installation instructions from [PlatformIO Libraries Registry](https://platformio.org/lib/show/5741/EasyButton/installation) 
+See [PlatformIO LIbrary Manager Docs](https://docs.platformio.org/en/latest/librarymanager/) for more information or the installation instructions from [PlatformIO Libraries Registry](https://platformio.org/lib/show/5741/EasyButton/installation)
 
 :::
 
