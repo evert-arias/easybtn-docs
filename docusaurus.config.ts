@@ -146,12 +146,12 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
     announcementBar: {
-      id: "poll_announcement",
+      id: "v3_development",
       content:
-        '🗳️ Help shape EasyButton 3.0! <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias/EasyButton/discussions/100">Vote in our poll</a>',
-      backgroundColor: "#4051b5", // Vibrant blue background
-      textColor: "#ffffff", // White text for contrast
-      isCloseable: true,
+        '🚀 EasyButton 3.0 in development! Major bug fixes and improvements coming soon. <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias/EasyButton/discussions/100">Learn more</a>',
+      backgroundColor: "#4051b5",
+      textColor: "#ffffff",
+      isCloseable: false,
     },
   } satisfies Preset.ThemeConfig,
 };
