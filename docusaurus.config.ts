@@ -76,7 +76,7 @@ const config: Config = {
           position: "left",
         },
         { to: "/contributors", label: "Contributors", position: "left" },
-        { to: "https://blog.treve.dev", label: "Blog", position: "right" },
+        // { to: "https://blog.treve.dev", label: "Blog", position: "right" },
         {
           href: "https://github.com/evert-arias/EasyButton",
           label: "GitHub",
@@ -124,10 +124,10 @@ const config: Config = {
         {
           title: "Community",
           items: [
-            {
-              label: "Blog",
-              to: "https://blog.treve.dev/",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "https://blog.treve.dev/",
+            // },
             {
               label: "GitHub",
               href: "https://github.com/evert-arias/EasyButton",
