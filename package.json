@@ -61,5 +61,8 @@
   },
   "engines": {
     "node": ">=18.0"
+  },
+  "overrides": {
+    "image-size": "2.0.4"
   }
 }
